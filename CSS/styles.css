@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #b3e0ff, #e6f7ff);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #3399ff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+/* Navigation and Contact Link */
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #edebe5; /* Bright yellow to stand out */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #004999;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover Effect */
+header nav a:hover {
+    background-color: #efede4; /* Swap colors on hover */
+    color: #004999;
+}
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+}
+
+/* Button Styles */
+button {
+    background-color: #3399ff;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1a73e8;
+    transform: scale(1.05);
+}
+
+/* Introductory Video Section */
+#intro {
+    text-align: center;
+}
+
+#intro video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Actions Section */
+#actions {
+    text-align: center;
+}
+
+/* Owner and Tenant Page Options */
+#owner-options, #tenant-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#owner-options button, #tenant-options button {
+    width: 80%;
+    max-width: 300px;
+}
+
+/* Contact Page Styles */
+#contact-info {
+    text-align: left;
+}
+
+#contact-info p {
+    margin: 10px 0;
+}
+
+#contact-info a {
+    color: #3399ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+    color: #d8e0ea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header nav a {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #owner-options button, #tenant-options button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #tracking input {
+        width: 100%;
+    }
+}
