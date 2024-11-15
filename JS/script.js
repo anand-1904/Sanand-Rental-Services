@@ -11,13 +11,13 @@ function openGoogleForm(propertyType, userType) {
         // URLs for the owner-related Google Forms
         switch (propertyType) {
             case 'flat':
-                formUrl = https://forms.gle/RUDFA7zZvCrCLW8Z7; // Flat form for owner
+                formUrl = 'https://forms.gle/RUDFA7zZvCrCLW8Z7'; // Flat form for owner
                 break;
             case 'house':
-                formUrl = https://forms.gle/RUDFA7zZvCrCLW8Z7; // House form for owner
+                formUrl = 'https://forms.gle/RUDFA7zZvCrCLW8Z7'; // House form for owner
                 break;
             case 'shop':
-                formUrl = https://forms.gle/RUDFA7zZvCrCLW8Z7; // Shop form for owner
+                formUrl = 'https://forms.gle/RUDFA7zZvCrCLW8Z7'; // Shop form for owner
                 break;
             default:
                 console.error('Invalid property type for owner');
@@ -27,13 +27,13 @@ function openGoogleForm(propertyType, userType) {
         // URLs for the tenant-related Google Forms
         switch (propertyType) {
             case 'flat':
-                formUrl = https://forms.gle/cpGgRZSZWdkU21V7A; // Flat form for tenant
+                formUrl = 'https://forms.gle/cpGgRZSZWdkU21V7A'; // Flat form for tenant
                 break;
             case 'house':
-                formUrl = https://forms.gle/cpGgRZSZWdkU21V7A; // House form for tenant
+                formUrl = 'https://forms.gle/cpGgRZSZWdkU21V7A'; // House form for tenant
                 break;
             case 'shop':
-                formUrl = https://forms.gle/cpGgRZSZWdkU21V7A; // Shop form for tenant
+                formUrl = 'https://forms.gle/cpGgRZSZWdkU21V7A'; // Shop form for tenant
                 break;
             default:
                 console.error('Invalid property type for tenant');
